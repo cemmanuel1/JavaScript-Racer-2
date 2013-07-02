@@ -1,0 +1,36 @@
+
+<table class="racer_table">
+  <tr id="player1_strip">
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+
+  </tr>
+  <tr id="player2_strip">
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+
+  </tr>
+</table>
+<script>
+race = <%=@race.to_json(:include => :players)%>
+</script>
